@@ -1,10 +1,6 @@
 # H8SayMyName
 Tehtävää 8 varten.
 
-
-
-# RealInternet
-
 ## Lukuläksy
 Tällä erää ei ollut lukuläksyä.
 
