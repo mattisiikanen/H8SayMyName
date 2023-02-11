@@ -58,12 +58,15 @@ IP-osoitteen jälkeen palasin NameCheapin hallintaan, josta valitsin Account -> 
 
 
 Hallinnassa lisäsin 2 kpl A tietueita seuraavilla tiedoilla:
+@-ohjaus:
+
+
 - Host: @              
 - Value: 143.42.18.59   
 - TTL: 5 min           
 
 
-
+www-ohjaus:
 
 
 - Host: www
@@ -84,6 +87,7 @@ Julkaisun jälkeen odottelin 5 minuuttia, jotta DNS tietueet päivittyvät ympä
 ![Kuva6](https://user-images.githubusercontent.com/122887740/218253249-ef4295e4-8e05-4905-82b9-34983f4feed8.png)
 
 
+Ohjauksien jälkeen liikenne ohjautui oikein Linodessa isännöityyn palvelimeen.
 
 ## Lopetus
 Lopetin tehtävien teon klo 18:25. Kyseinen tehtävä avasi hyvin virtuaalipalvelimen isännöinnistä, Linuxin palomuuria sekä murtautumisyritysten tarkastelua. SSH oli entuudestaan itselleni tuttu, joten se ei tuonut mitään uutta. Töihin meni tällä erää n. 1,5h.
