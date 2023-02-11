@@ -57,7 +57,7 @@ Jotta pääsin alkuun, tuli minun ensin kirjautua Linoden isännöintipalveluun 
 IP-osoitteen jälkeen palasin Namecheapin hallintaan, josta valitsin Account -> Domain list -> mattisiikanen.com -> Manage -> Advanced DNS.
 
 
-Hallinnassa lisäsin 2 kpl A tietueita seuraavilla tiedoilla:
+Hallinnassa lisäsin 2 kpl A tietueita seuraavilla tiedoilla: </br>
 @-ohjaus:
 
 
