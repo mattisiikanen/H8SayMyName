@@ -48,8 +48,8 @@ Seuraavalla sivulla oli näkyvissä alla olevat tiedot, jotka esitän tietosuoja
 - Billing Contact
 
 
-Seuraavana oli luvassa ostoksen teko ja tilauksen viimeistely. Kun ostokset oli tehty, tuli osoittaa oma domain vuokrattuun virtuaalipalvelimeen.
-Jotta pääsin alkuun, tuli minun ensin kirjautua Linoden isännöintipalveluun ja käydä kaappaamassa palvelimen julkinen IP-osoite tulevaa DNS muutosta varten.
+Lopuksi oli luvassa ostoksen teko ja tilauksen viimeistely. Kun ostokset oli tehty, tuli osoittaa oma domain vuokrattuun virtuaalipalvelimeen.
+Jotta pääsin alkuun, tuli minun ensin kirjautua Linoden isännöintipalveluun ja käydä kaappaamassa omistamani palvelimen julkinen IP-osoite tulevaa DNS muutosta varten.
 
 
 ![Kuva3](https://user-images.githubusercontent.com/122887740/218252520-fd0d0eb0-5150-422b-83ca-16cfb8097a9f.png) </br>
