@@ -57,15 +57,15 @@ Jotta pääsin alkuun, tuli minun ensin kirjautua Linoden isännöintipalveluun 
 IP-osoitteen jälkeen palasin NameCheapin hallintaan, josta valitsin Account -> Domain list -> mattisiikanen.com -> Manage -> Advanced DNS.
 
 
-Hallinnassa lisäsin 2 A tietuetta seuraavilla tiedoilla:
-- Host: @
-- Value: 143.42.18.59
-- TTL: 5 min </br>
+Hallinnassa lisäsin 2 kpl A tietueita seuraavilla tiedoilla:
+- Host: @               - Host: www
+- Value: 143.42.18.59   - Value: 143.42.18.59
+- TTL: 5 min            - TTL: 5 min
 
 
-- Host: www
-- Value: 143.42.18.59
-- TTL: 5 min
+
+
+
 
 
 ![Kuva4](https://user-images.githubusercontent.com/122887740/218253195-4722ce6a-947a-463b-9886-9c5b837614ac.png)
