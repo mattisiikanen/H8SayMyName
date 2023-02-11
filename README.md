@@ -60,8 +60,7 @@ IP-osoitteen jälkeen palasin NameCheapin hallintaan, josta valitsin Account -> 
 Hallinnassa lisäsin 2 A tietuetta seuraavilla tiedoilla:
 - Host: @
 - Value: 143.42.18.59
-- TTL: 5 min
-
+- TTL: 5 min </br>
 
 
 - Host: www
