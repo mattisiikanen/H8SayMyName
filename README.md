@@ -54,7 +54,7 @@ Jotta pääsin alkuun, tuli minun ensin kirjautua Linoden isännöintipalveluun 
 
 ![Kuva3](https://user-images.githubusercontent.com/122887740/218252520-fd0d0eb0-5150-422b-83ca-16cfb8097a9f.png) </br>
 
-IP-osoitteen jälkeen palasin NameCheapin hallintaan, josta valitsin Account -> Domain list -> mattisiikanen.com -> Manage -> Advanced DNS.
+IP-osoitteen jälkeen palasin Namecheapin hallintaan, josta valitsin Account -> Domain list -> mattisiikanen.com -> Manage -> Advanced DNS.
 
 
 Hallinnassa lisäsin 2 kpl A tietueita seuraavilla tiedoilla:
