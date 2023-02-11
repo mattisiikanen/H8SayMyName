@@ -1,2 +1,88 @@
 # H8SayMyName
-Tehtävää 8 varten
+Tehtävää 8 varten.
+
+
+
+# RealInternet
+
+## Lukuläksy
+Tällä erää ei ollut lukuläksyä.
+
+
+## Ympäristö
+
+Hyper-V kotikoneella (Host):
+
+- CPU: i5-9600K
+- RAM: 16Gb
+- HDD: 120Gb
+- Win 11 Pro x64
+
+Virtuaalikoneen speksit:
+
+- 2 x CPU
+- 4 Gb RAM
+- 50 Gb HDD
+- Generation 2 (Hyper-V pyytää määrittelemään)
+
+## Aloitus 
+Tehtävän tarkoituksena oli ostaa / vuokrata omalla nimellä domain joltain suositulta nimipalveluntoimittajalta.
+Aloitin tehtävät 11.2.2023 klo 10:26.
+
+
+## a) Vuokraa domainnimi ja aseta se osoittamaan virtuaalipalvelimeesi
+Aloitin valitsemalla palveluntarjoajaksi NameCheapin ja menemällä heidän sivuille tarkistamaan hakukoneesta, onko domain ```mattisiikanen``` vapaana.</br>
+![Kuva1](https://user-images.githubusercontent.com/122887740/218248399-061dd81c-378f-4d8f-8f32-d4a3e07d62e0.png)</br>
+
+
+Domain oli käytettävissä, joten vuokrasin sen vuodeksi NameCheap yritti pakkomyydä kaikkia lisäpalveluja, mutta jätin ne valitsematta ja siirryin suoraan kassalle.
+Kassalla vielä sai päättää, otetaanko auto-renew käyttöön, sekä domain privacy, josta kävin lukemassa NameCheapin tarjoamasta linkistä. Domain Privacy suojaa domainin rekisteröijän tiedot, jottei tiedot omistajuudesta vuoda julkisuuteen, tämä suojaa rekisteröijää monelta harmilta. </br>
+
+
+![Kuva2](https://user-images.githubusercontent.com/122887740/218248670-c7379530-a997-4b38-bca9-12f522f0959e.png) </br>
+
+Seuraavalla sivulla oli näkyvissä seuraavat tiedot, jotka esitän tietosuojasyistä vain otsikoina:
+- Registrant Contact
+- Administrative Contact
+- Technical Contact
+- Billing Contact
+
+
+Seuraavana oli luvassa ostoksen teko ja tilauksen viimeistely. Kun ostokset oli tehty, tuli osoittaa oma domain vuokrattuun virtuaalipalvelimeen.
+Jotta pääsin alkuun, tuli minun ensin kirjautua Linoden isännöintipalveluun ja käydä kaappaamassa palvelimen julkinen IP-osoite tulevaa DNS muutosta varten.
+
+
+![Kuva3](https://user-images.githubusercontent.com/122887740/218252520-fd0d0eb0-5150-422b-83ca-16cfb8097a9f.png) </br>
+
+IP-osoitteen jälkeen palasin NameCheapin hallintaan, josta valitsin Account -> Domain list -> mattisiikanen.com -> Manage -> Advanced DNS.
+
+
+Hallinnassa lisäsin 2 A tietuetta seuraavilla tiedoilla:
+- Host: @
+- Value: 143.42.18.59
+- TTL: 5 min
+
+
+- Host: www
+- Value: 143.42.18.59
+- TTL: 5 min
+
+
+![Kuva4](https://user-images.githubusercontent.com/122887740/218253195-4722ce6a-947a-463b-9886-9c5b837614ac.png)
+
+
+Julkaisun jälkeen odottelin 5 minuuttia, jotta DNS tietueet päivittyvät ympäri maailman.
+
+
+![Kuva5](https://user-images.githubusercontent.com/122887740/218253241-4d13ec9f-a6f5-4deb-9e3c-24f9d6ece780.png)
+
+
+![Kuva6](https://user-images.githubusercontent.com/122887740/218253249-ef4295e4-8e05-4905-82b9-34983f4feed8.png)
+
+
+
+## Lopetus
+Lopetin tehtävien teon klo 18:25. Kyseinen tehtävä avasi hyvin virtuaalipalvelimen isännöinnistä, Linuxin palomuuria sekä murtautumisyritysten tarkastelua. SSH oli entuudestaan itselleni tuttu, joten se ei tuonut mitään uutta. Töihin meni tällä erää n. 1,5h.
+
+## Lähteet:
+NameCheap, What is domain privacy? (https://www.namecheap.com/security/what-is-domain-privacy-definition/)
