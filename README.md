@@ -31,11 +31,11 @@ Aloitin tehtävät 11.2.2023 klo 10:26.
 
 
 ## a) Vuokraa domainnimi ja aseta se osoittamaan virtuaalipalvelimeesi
-Aloitin valitsemalla palveluntarjoajaksi NameCheapin ja menemällä heidän sivuille tarkistamaan hakukoneesta, onko domain ```mattisiikanen``` vapaana.</br>
+Aloitin valitsemalla palveluntarjoajaksi Namecheapin ja menemällä heidän sivuille tarkistamaan hakukoneesta, onko domain ```mattisiikanen``` vapaana.</br>
 ![Kuva1](https://user-images.githubusercontent.com/122887740/218248399-061dd81c-378f-4d8f-8f32-d4a3e07d62e0.png)</br>
 
 
-Domain oli käytettävissä, joten vuokrasin sen vuodeksi NameCheap yritti pakkomyydä kaikkia lisäpalveluja, mutta jätin ne valitsematta ja siirryin suoraan kassalle.
+Domain oli käytettävissä, joten vuokrasin sen vuodeksi. Namecheap yritti pakkomyydä kaikkia lisäpalveluja, mutta jätin ne valitsematta ja siirryin suoraan kassalle.
 Kassalla vielä sai päättää, otetaanko auto-renew käyttöön, sekä domain privacy, josta kävin lukemassa NameCheapin tarjoamasta linkistä. Domain Privacy suojaa domainin rekisteröijän tiedot, jottei tiedot omistajuudesta vuoda julkisuuteen, tämä suojaa rekisteröijää monelta harmilta. </br>
 
 
