@@ -41,7 +41,7 @@ Kassalla sai vielä päättää, otetaanko käyttöön sekä Auto-Renew että Do
 
 ![Kuva2](https://user-images.githubusercontent.com/122887740/218248670-c7379530-a997-4b38-bca9-12f522f0959e.png) </br>
 
-Seuraavalla sivulla oli näkyvissä seuraavat tiedot, jotka esitän tietosuojasyistä vain otsikoina:
+Seuraavalla sivulla oli näkyvissä alla olevat tiedot, jotka esitän tietosuojasyistä vain otsikoina:
 - Registrant Contact
 - Administrative Contact
 - Technical Contact
