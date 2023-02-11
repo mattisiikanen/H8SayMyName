@@ -80,7 +80,7 @@ Koitin ensin käyttää ```curl``` komentoa: </br>
 ![Kuva5](https://user-images.githubusercontent.com/122887740/218253241-4d13ec9f-a6f5-4deb-9e3c-24f9d6ece780.png)
 
 
-Ja seuraavaksi koitin jo selata koneella sivuille: </br>
+Ja seuraavaksi koitin jo selata Firefoxilla sivuille: </br>
 
 ![Kuva6](https://user-images.githubusercontent.com/122887740/218253249-ef4295e4-8e05-4905-82b9-34983f4feed8.png)
 
