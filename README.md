@@ -80,17 +80,51 @@ www-ohjaus:
 
 Julkaisun jälkeen odottelin 5 minuuttia, jotta DNS tietueet päivittyvät ympäri maailman.
 
-
+Koitin ensin käyttää ```curl``` komentoa: </br>
 ![Kuva5](https://user-images.githubusercontent.com/122887740/218253241-4d13ec9f-a6f5-4deb-9e3c-24f9d6ece780.png)
 
+
+Ja seuraavaksi koitin jo selata koneella sivuille: </br>
 
 ![Kuva6](https://user-images.githubusercontent.com/122887740/218253249-ef4295e4-8e05-4905-82b9-34983f4feed8.png)
 
 
-Ohjauksien jälkeen liikenne ohjautui oikein Linodessa isännöityyn palvelimeen.
+Ohjauksien jälkeen liikenne näytti ohjautuvan oikein Linodessa isännöityyn palvelimeen.
+
+
+## b) Tutki oman nimesi tietoja 'host' ja 'dig' -komennoilla. Analysoi tulokset.
+Klo 10:45
+
+
+Seuraavaksi oli luvassa tutkia omia tietoja komennoilla ```host``` ja ```dig```.
+
+Aloitin komennolla ```host mattisiikanen.com```: </br>
+![Kuva7](https://user-images.githubusercontent.com/122887740/218253589-b21bc148-4691-4159-b93a-c8be9749275b.png)</br>
+
+
+Tietojen perusteella domainilla ```mattisiikanen.com``` on yksi IP-osoite: 143.42.18.59, eli DNS-hallintaan syöttämäni tietue, sekä 5 eri palvelinta spostin ohjausta varten.
+
+
+Seuraavana luvassa oli komento ```dig mattisiikanen.com```: </br>
+![Kuva8](https://user-images.githubusercontent.com/122887740/218253695-a46bd5d1-b253-48dc-8451-1d7ab1585f7c.png)</br>
+
+Jotta ymmärsin jotain tiedoista, tuli minun ensin perehtyä ```dig``` komennon saloihin selailemalla Linuxizen artikkelia Dig Command in Linux (DNS Lookup) aiheesta.
+
+Tiedoista selviää seuraavaa: </br>
+- <<>> DiG 9.16.37-Debian <<>> mattisiikanen.com <- näyttää käytetyn työkalun version tiedot + haetun domainin
+- Got answer <- sisältää teknisen tiedon pyynnöstä 
+- OPT PSEUDOSECTION <- kertoo DNS-tietueessa käytetyistä laajennuksista
+- QUESTION SECTION <- kysely, jolla kerätään tietueet DNS:stä
+- ANSWER SECTION <- Vastaus kyselylle, jossa näytetään löydetyt tietueet
+- Query time & etc <- tässä on statistiikkaa varten löytyvää tietoa
+
+
 
 ## Lopetus
-Lopetin tehtävien teon klo 18:25. Kyseinen tehtävä avasi hyvin virtuaalipalvelimen isännöinnistä, Linuxin palomuuria sekä murtautumisyritysten tarkastelua. SSH oli entuudestaan itselleni tuttu, joten se ei tuonut mitään uutta. Töihin meni tällä erää n. 1,5h.
+Lopetin tehtävien teon klo 11:57. Kyseinen tehtävä avasi hyvin domainin vuokrausta ja DNS-tietueiden julkaisua. Töihin meni tällä erää n. 1,5h.
 
 ## Lähteet:
 NameCheap, What is domain privacy? (https://www.namecheap.com/security/what-is-domain-privacy-definition/)
+
+
+Linuxize, 26.2.2020 - Dig Command in Linux (DNS Lookup) (https://linuxize.com/post/how-to-use-dig-command-to-query-dns-in-linux/)
