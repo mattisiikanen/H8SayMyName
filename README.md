@@ -114,13 +114,14 @@ Tiedoista selviää seuraavaa: </br>
 - ANSWER SECTION <- Vastaus kyselylle, jossa näytetään löydetyt tietueet
 - Query time & etc <- tässä on statistiikkaa varten löytyvää tietoa
 
+```Host``` komento selvästi keskittyy domainin päätason asioihin, kuten IP-osoitteeseen ja palvelinosoituksiin. ```Dig``` taas tuntuu enemmän pureutuvan domainin teknisiin tietoihin ja itse siihen määritettyihin tietueisiin.
 
 
 ## Lopetus
 Lopetin tehtävien teon klo 11:57. Kyseinen tehtävä avasi hyvin domainin vuokrausta ja DNS-tietueiden julkaisua. Töihin meni tällä erää n. 1,5h.
 
 ## Lähteet:
-NameCheap, What is domain privacy? (https://www.namecheap.com/security/what-is-domain-privacy-definition/)
+Namecheap, What is domain privacy? (https://www.namecheap.com/security/what-is-domain-privacy-definition/)
 
 
 Linuxize, 26.2.2020 - Dig Command in Linux (DNS Lookup) (https://linuxize.com/post/how-to-use-dig-command-to-query-dns-in-linux/)
