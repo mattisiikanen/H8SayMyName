@@ -36,7 +36,7 @@ Aloitin valitsemalla palveluntarjoajaksi Namecheapin ja menemällä heidän sivu
 
 
 Domain oli käytettävissä, joten vuokrasin sen vuodeksi. Namecheap yritti pakkomyydä kaikkia lisäpalveluja, mutta jätin ne valitsematta ja siirryin suoraan kassalle.
-Kassalla vielä sai päättää, otetaanko auto-renew käyttöön, sekä domain privacy, josta kävin lukemassa NameCheapin tarjoamasta linkistä. Domain Privacy suojaa domainin rekisteröijän tiedot, jottei tiedot omistajuudesta vuoda julkisuuteen, tämä suojaa rekisteröijää monelta harmilta. </br>
+Kassalla sai vielä päättää, otetaanko käyttöön sekä Auto-Renew että Domain Privacy. Kävin kävin lukemassa Domain Privacysta Namecheapin tarjoamasta linkistä. Domain Privacy suojaa domainin rekisteröijän tiedot, jottei tiedot omistajuudesta vuoda julkisuuteen, tämä suojaa rekisteröijää monelta harmilta. </br>
 
 
 ![Kuva2](https://user-images.githubusercontent.com/122887740/218248670-c7379530-a997-4b38-bca9-12f522f0959e.png) </br>
