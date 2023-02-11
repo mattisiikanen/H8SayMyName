@@ -92,7 +92,7 @@ Ohjauksien jälkeen liikenne näytti ohjautuvan oikein Linodessa isännöityyn p
 Klo 10:45
 
 
-Seuraavaksi oli luvassa tutkia omia tietoja komennoilla ```host``` ja ```dig```.
+DNS hankinnan ja konfiguroinnin jälkeen luvassa oli tutkia oman domainin komennoilla ```host``` ja ```dig```.
 
 Aloitin komennolla ```host mattisiikanen.com```: </br>
 ![Kuva7](https://user-images.githubusercontent.com/122887740/218253589-b21bc148-4691-4159-b93a-c8be9749275b.png)</br>
